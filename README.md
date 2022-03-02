@@ -8,3 +8,5 @@
 -show some of my code and some finished projects that im proud of 
 ### Contact Page
 -make a page where you can contact me and give some links to my socials
+### Blog Page 
+-put some filler text that looks like blog posts
