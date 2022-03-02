@@ -38,3 +38,18 @@ nav a {
 .about-me img {
   width: 200px;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.contact-info {
+  padding-top: 1em;
+}
+
+.contact button {
+  width: 100%;
+}
