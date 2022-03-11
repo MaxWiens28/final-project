@@ -4,7 +4,7 @@
   "scripts": {
     "build:css": "cleancss src/css/*.css -o dist/css/styles.min.css",
     "copy:html": "cp src/*.html dist",
-    "copy:innerhtml": "mkdir -p dist/html && cp src/html/*.html dist/html",
+    "copy:innerhtml": "mkdir -p dist/html && cp src/html/*.html dist",
     "build:js": "uglifyjs dist/js/bundle.js --compress -o dist/js/bundle.min.js",
     "imagemin": "imagemin src/images/* -o dist/images",
     "rollup": "rollup src/js/main.js --file dist/js/bundle.js --format es",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "clean-css-cli": "^5.5.2",
     "imagemin-cli": "^7.0.0",
-    "mkdirp": "^1.0.4",
+    "mkdir": "^0.0.2",
     "rollup": "^2.70.0",
     "uglify-js": "^3.15.2"
   }
