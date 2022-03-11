@@ -1,3 +1,5 @@
+import { colorToggle, colorSwitcher } from "./darkAndLight";
+
 var i = 0;
 var images1 = [];
 var images2 = [];
