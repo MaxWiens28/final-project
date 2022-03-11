@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: blue;
-  color: white;
+  background-color: #5CDB95;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-  background-color: navy;
+  background-color: #05386b;
   color: white;
 }
 
