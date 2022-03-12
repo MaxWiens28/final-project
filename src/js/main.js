@@ -3,9 +3,9 @@ var images = [];
 var time = 2000;
 const colorToggle = document.querySelector('#colorToggle').addEventListener('click', colorSwitcher);
 
-images[0] = '/src/images/img1.png';
-images[1] = '/src/images/img2.png';
-images[2] = '/src/images/img3.png';
+images[0] = '/dist/images/img1.png';
+images[1] = '/dist/images/img2.png';
+images[2] = '/dist/images/img3.png';
 
 function changeImg() {
   document.slide.src = images[i];
