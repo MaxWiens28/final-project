@@ -1,6 +1,7 @@
 var i = 0;
 var images = [];
 var time = 2000;
+const colorToggle = document.querySelector('#colorToggle').addEventListener('click', colorSwitcher);
 
 images[0] = '/src/images/img1.png';
 images[1] = '/src/images/img2.png';
@@ -18,5 +19,8 @@ function changeImg() {
   setTimeout("changeImg()", time);
 }
 
-
 window.onload = changeImg;
+  
+function colorSwitcher() {
+  document.body.classList.toggle('dark');
+};

@@ -1,0 +1,27 @@
+{
+  "name": "personal-portfolio-project",
+  "description": "-Building a 4 page portfolio that will showcase your past work and lets your co-workers/classmates know a little bit more about yourself",
+  "scripts": {
+    "build:css": "cleancss src/css/styles.css -o dist/css/style.min.css",
+    "build:js": "mkdirp dist/js && uglifyjs src/js/main.js --compress --output dist/js/main.min.js",
+    "copy:html": "mkdirp dist/html && cp src/index.html dist && cp src/html/*.html dist/html",
+    "imagemin": "image src/images/* -o dist/images",
+    "build": "npm run build:css && npm run build:js && npm run copy:html && npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxWiens28/final-project.git"
+  },
+  "author": "Max Wiens <mjwiens@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxWiens28/final-project/issues"
+  },
+  "homepage": "https://github.com/MaxWiens28/final-project#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "imagemin-cli": "^7.0.0",
+    "mkdirp": "^1.0.4",
+    "uglify-js": "^3.15.3"
+  }
+}
