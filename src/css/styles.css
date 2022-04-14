@@ -7,13 +7,13 @@
 body {
   background-color: #5CDB95;
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: garamond;
 }
 
 body.dark {
   background-color: darkblue;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: garamond;
 }
 
 header {
