@@ -4,7 +4,7 @@
   "scripts": {
     "build:css": "cleancss src/css/styles.css -o dist/css/style.min.css",
     "build:js": "mkdirp dist/js && uglifyjs src/js/main.js --compress --output dist/js/main.min.js",
-    "copy:html": "mkdirp dist/html && cp src/index.html dist && cp src/html/*.html dist/html",
+    "copy:html": "mkdirp dist/html && mkdirp dist/html/blog-post && cp src/index.html dist && cp src/html/*.html dist/html && cp src/html/blog-post/*.html dist/html/blog-post",
     "imagemin": "imagemin src/images/* -o dist/images",
     "build": "npm run build:css && npm run build:js && npm run copy:html && npm run imagemin"
   },
