@@ -37,6 +37,11 @@ nav a {
   text-decoration: none;
 }
 
+.work {
+  padding: 20px 300px;
+  font-size: larger;
+}
+
 .work img {
   width: 300px;
   height: 200px;
